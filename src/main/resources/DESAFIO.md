@@ -19,8 +19,9 @@ Propriedades: ``nome, cpf, livrosEmprestados`` (uma lista de livros que o client
 - emprestarLivro(livro: Livro): adiciona o livro à lista de livrosEmprestados e define o livro como não disponível.
 - devolverLivro(livro: Livro): remove o livro da lista de livrosEmprestados e define o livro como disponível.
 - listarLivrosEmprestados(): lista todos os livros que o cliente atualmente tem emprestados.
-Classe Biblioteca:
 
+###
+### Classe Biblioteca:
 Propriedades: ``livros (lista de Livro), clientes`` (lista de Cliente).
 
 #### Métodos:
